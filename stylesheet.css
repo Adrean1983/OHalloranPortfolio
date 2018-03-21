@@ -31,6 +31,8 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+*{font-family: 'Roboto', sans-serif}
+
 header {
     width: 100%;
     height: 80px;
@@ -41,7 +43,35 @@ header {
     line-height: 80px;
     font-family: "Monoton", sans-serif;
     font-size: 70px;
+    padding: 5px
 }
+
+.nav {
+    background-color: #595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+p {
+    margin: 50px 250px 25px 250px;
+}
+
 
 
 /* Index */
@@ -49,6 +79,7 @@ header {
 .imgcontainer {
     display: flex;
     justify-content: space-around;
+    margin: 50px 0px;
 }
 
 img {
@@ -63,18 +94,10 @@ img {
 /* Contact */
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.ultimatecontainer {
     background-color: gainsboro;
     border-radius: 5px;
     padding: 20px;
-    margin: 0 150px 0 150px;
+    margin: 50px 175px 50px 175px;
 }
 
 .form-row {
