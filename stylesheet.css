@@ -68,7 +68,7 @@ header {
     color: #c1c1c1;
 }
 
-p {
+.intro {
     margin: 50px 250px 25px 250px;
 }
 
@@ -119,4 +119,20 @@ img {
 
 .subject {
     height: 200px;
+}
+
+/* About Me */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    padding: 100px;
+}
+
+ul:before, ol:before {
+    content:attr(list-label);
+    font-size:120%;
+    font-weight:bold;
+    margin-left:-15px;
 }
